@@ -1,0 +1,37 @@
+h1 {
+overflow: hidden;
+margin: auto;
+margin-top: 5px%;
+padding: 0;
+text-align: center;
+font-size: 30px;
+color: blue;
+}
+
+form {
+  margin-top: 10%;
+}
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 250px;
+  height: 45px;
+  background-color: white;
+  border: none;
+  font-family: sans-serif;
+}
+label {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+#submit {
+  background-color: #add8e6;
+}
+body {
+  margin: 0;
+  background-color: #e9ebee;
+}

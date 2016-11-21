@@ -1,0 +1,49 @@
+
+#outer {
+  display: block;
+  position: relative;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 100%;
+}
+#head {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 0;
+}
+
+#messages {
+  width: 70%;
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+  font: Helvetica, Arial, sans-serif;
+
+}
+#messages h3, #messages a {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 50%;
+  margin: 0;
+}
+h4 {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin: 0;
+  margin-bottom: 4px;
+}
+#messages p {
+  width: 100%;
+  display: block;
+  background-color: white;
+  font-family: inherit;
+  border: 1px solid #e5e5e5;
+}
+body {
+  margin:0;
+  background-color: #e9ebee;
+}

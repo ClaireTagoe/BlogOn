@@ -1,0 +1,56 @@
+
+#login_button2{
+  display: inline-block;
+  position: relative;
+  width: 8%;
+  height: 30px;
+  margin-top: 2%;
+  margin-right: auto;
+  float: right;
+}
+
+#tab {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 0;
+    position: relative;
+    width: 75%;
+    float: right;
+    top: 0;
+    display: inline-block;
+    background: inherit;
+}
+#tab li {float: right;}
+#tab li a:hover {background-color: #ddd;}
+
+
+#tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+#nav {
+  top: 0;
+  z-index: 10;
+  height: 8%;
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+}
+#logo {
+  color: blue;
+  padding: 0;
+  font-size: 50px;
+  position: relative;
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 0;
+  text-align: left;
+  float: left;
+  text-decoration: none;
+}
